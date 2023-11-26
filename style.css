@@ -1,0 +1,80 @@
+/* generales */
+.cuerpo{
+    background-color: rgba(255, 228, 196, 0.684);
+}
+
+/* barra de navegacion */
+.navbar{
+    background-color: rgb(251, 220, 190);
+    /* margin: 0px 20px 30px 20px; */
+    padding: 0;
+    border-radius: 15px;
+}
+.navbar img{
+    margin-left: 25px;
+    padding: 0;
+}
+.navbar-nav{
+    font-size: 20px;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+.nav-link{
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.nav-link:hover{
+    background-color: rgba(255, 199, 132, 0.911);
+    border-color: rgb(234, 255, 0);
+}
+
+/* seccion principal */
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Wix Madefor Text', sans-serif; 
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 150px;
+  
+}
+
+
+.contenedor-foto img{
+    width: 1200px;
+    border-radius: 40px;
+}
+
+
+/* card */
+.card-contenedor{
+    margin-top: 50px;
+}
+
+.card{
+    padding: 10px;
+    margin: 20px;
+}
+
+.card img{
+    border-radius: 15px;
+}
+.card .btn {
+    background-color: coral;
+    border-color: rgb(255, 181, 128);
+    font-weight: bold;
+    color: black;
+}
+
+.card .btn:hover{
+    background-color: rgb(253, 153, 31);
+}
+
+/* footer */
+.contenedor-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
